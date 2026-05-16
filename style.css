@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #000  ;
+    margin-top: -15px;
+}
+header {
+    background-image: linear-gradient(to right top, #070707, #161616, #202020, #2c2c2c, #373737);
+    border-radius: 35px;
+    position: fixed;
+    margin: 40px 320px; 
+    width: 740px;
+    
+}
+header nav ul {
+    /* Deixa o conteudo no meio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Espaçamento  */
+    gap: 40px;
+    
+   
+}
+header nav ul li   {
+    /* Muda a setinha do mouse  */
+   cursor: pointer;
+   color: aliceblue;
+   font-size: 15px;
+   position:relative;
+   padding: 5px 0px;
+   text-decoration: none;
+
+   transition: transform 0.5s ease;
+}
+
+.nav_lista:hover{
+    color: burlywood;
+    transform: scale(1.2);
+}
+
+.nav_lista a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.paragrafo_Miyagi{
+    display: flex;
+    justify-content: end;
+    margin-right: 15%;
+}
+
+
+
+.Miyagi {
+    border-radius: 5%;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 75px;
+    padding-right: 50px;
+    z-index: 2;
+
+}
+
+.sobrenós{
+    color: #C5A253;
+    text-align: justify;
+    font-size: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 105px;
+    padding-right: 50px;
+}
+
+.Quadro {
+   margin-top: 200px;
+   margin-left: 1px;
+   width: 170px;
+}
+
+.Familia {
+    margin-top: 80px;
+    width: 370px;
+    
+}
+
+.Vermais {
+    background-color: #373737;
+    border-radius: 10px;
+    color: #C5A253;
+    font-size: 20px;
+    justify-items: center;
+    margin-top: 0px;
+    margin-left: 300px;
+    padding: 12px 70px;
+}
+.Vermais a {
+    text-decoration: none;
+    color: #C5A253;
+}
+
+.Informações {
+    background-color: #000;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0 300px;
+    width: 800px;
+}
+h2 {
+    color:#C5A253;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+p {
+    color:#C5A253;
+    margin: 40px;
+    margin-left: 10px;
+}
+
+.ImgIcones2 {
+    position: relative;
+    margin-top: -25px;
+    margin-left: 10px;
+    z-index: 2;
+}
+.Icones  {    display: flex;          /* Alinha os itens em linha (horizontal) */
+    list-style: none;       /* Remove as bolinhas/pontos da lista */
+    padding: 0;             /* Remove o recuo padrão */
+    margin: 0; 
+    margin-top: 4px;
+    margin-left: -290px;             /* Remove as margens padrão */
+    gap: 25px;              /* Define o espaço entre um item e outro */
+}
